@@ -1,6 +1,8 @@
 
 # API Project: Timestamp Microservice for FCC
 
+* https://timestamp-project-xheartean.glitch.me/
+
 ### User stories :
 
 1. The API endpoint is `GET [project_url]/api/timestamp/:date_string?`
@@ -12,6 +14,7 @@ e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
 5. If the date string is **invalid** the api returns a JSON having the structure `{"unix": null, "utc" : "Invalid Date" }`. It is what you get from the date manipulation functions used above.
 
 #### Example usage:
+* https://timestamp-project-xheartean.glitch.me/api/timestamp/
 * https://timestamp-project-xheartean.glitch.me/api/timestamp/2015-12-25
 * https://timestamp-project-xheartean.glitch.me/api/timestamp/1450137600000
 
